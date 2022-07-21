@@ -30,6 +30,10 @@
     line-height: 3;
     font-family: "Poppins", sans-serif;
 }
+.flux-container{
+    display: flex;
+    flex-direction:column
+}
 .banner{
     width: 100%;
     text-align: center;
@@ -48,13 +52,14 @@
     padding-top: 30px;
     margin-bottom: 44px;
 }
-.banner .get-started{
+.banner .get-started a{
     display: inline-block;
     border: solid 2px #fff;
     border-radius: 0px;
     padding: 16px 33px;
     /* padding-top: 30px; */
     color: #fff;
+    text-decoration: none;
 }
 .nav-img{
     width: 90%;
@@ -81,6 +86,16 @@
     width: 100%;
     margin: auto;
 }
+.flux-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin-top: 146px;
+    box-sizing: border-box;
+ }
+ .banner{
+    width: 95%;
+ }
 .navigation .nav-icon i{
     display: none;
 }
@@ -96,8 +111,67 @@
     /* font-weight: bold; */
     color: rgba(255, 255, 255, 0.65);
 }
-.flux-container{
-    font-display: flex;
-    justify-content: space-between;
+.banner h1{
+    text-align: center;
+    width: 124%;
+    padding-top: 41px;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
+.banner p{
+    text-align: left;
+    margin-left: 27px;
+}
+.get-started{
+    text-align: left;
+    margin-left: 27px;
+}
+.nav-img{
+    /* text-align: right; */
+    width: 60%;
+}
+.nav-img .phone1{
+    margin-right: 82px;
+}
+.nav-img .phone2{
+
+}
+}
+@media(min-width:1200px){
+.con{
+        width: 100%;
+        margin: auto;
+    }
+.flux-container{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        margin-top: 19px;
+     }
+.banner{
+    width: 700px;
+    margin-top: 116px
+     }
+.banner h1{
+        text-align: left;
+        margin-left: 27px;
+        width: 733px;
+        padding-top: 41px;
+        font-size: 3.5rem;
+        font-weight: 800;
+        box-sizing: border-box;
+    }
+    .nav-img {
+        width: 700px;
+        box-sizing: border-box;
+    }
+ .nav-img .phone1{
+    box-sizing: border-box;
+    position: absolute;
+    }
+ .nav-img .phone2{
+    position: relative;
+    margin-top: 51px;
+    margin-left: 111px;
+    }
 }
