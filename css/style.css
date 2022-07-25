@@ -1,6 +1,6 @@
 @media(min-width:576px){
 .con{
-    width: 100%;
+    min-width: 576px;
     height: 880px;
     margin: auto;
     background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../images/hero-bg.jpg);
@@ -8,10 +8,11 @@
     background-position:center ;
 } 
 .navigation{
-    width: 90%;
+    width:498px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-left: 26px;
+    /* margin-left: 26px; */
 }
 .nav-icon ul{
     display: none;
@@ -31,11 +32,14 @@
     font-family: "Poppins", sans-serif;
 }
 .flux-container{
+    width: 576px;
+    margin: auto;
     display: flex;
     flex-direction:column
 }
 .banner{
-    width: 100%;
+    width: 576px;
+    margin: auto;
     text-align: center;
     padding-top: 22px;
 }
@@ -47,6 +51,7 @@
     font-weight: 700;
 }
 .banner p{
+    margin: auto;
     font-size: 20px;
     color: #fff;
     padding-top: 30px;
@@ -62,12 +67,13 @@
     text-decoration: none;
 }
 .nav-img{
-    width: 90%;
+    margin: auto;
+    width: 576px;
     height: 485px;
-    /* text-align: center; */
+    text-align: center;
     /* padding-right: 126px; */
     padding-top: 20px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 .nav-img .phone1{
     position:relative;
@@ -81,6 +87,94 @@
     margin-left: -246px;
 }
 }
+@media(min-width:767px){
+    .con{
+        width: 100%;
+        height: 880px;
+        margin: auto;
+        background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../images/hero-bg.jpg);
+        /* background-image: url(../images/hero-bg.jpg); */
+        background-position:center ;
+    } 
+    .navigation{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        /* margin-left: 26px; */
+    }
+    .nav-icon ul{
+        display: none;
+    }
+    .navigation .nav-icon i{
+        display: inline;
+        font-size: 28px;
+        color: #fff;
+        line-height: 3;
+        /* font-weight: 300; */
+    }
+    .navigation h3{
+        font-size: 28px;
+        margin-right: 155px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 3;
+        font-family: "Poppins", sans-serif;
+    }
+    .flux-container{
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        width:659px;
+    }
+    .banner{
+        width: 659px;
+        text-align: center;
+        padding-top: 22px;
+        /* margin-left: 50px; */
+    }
+    .banner h1{
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    .banner p{
+        font-size: 20px;
+        color: #fff;
+        padding-top: 30px;
+        margin-bottom: 44px;
+    }
+    .banner .get-started a{
+        display: inline-block;
+        border: solid 2px #fff;
+        border-radius: 0px;
+        padding: 16px 33px;
+        /* padding-top: 30px; */
+        color: #fff;
+        text-decoration: none;
+    }
+    .nav-img{
+        width: 90%;
+        margin: auto;
+        height: 485px;
+        padding-top: 20px;
+        /* margin-right: 50px; */
+        text-align: center;
+        /* margin-left: 18px; */
+    }
+    .nav-img .phone1{
+        position:relative;
+        width: 280px;
+        height: 485px;
+    }
+    .nav-img .phone2{
+        position:absolute;
+        width: 250px;
+        height: 485px;
+        margin-left: -246px;
+    }
+    }
 @media(min-width:992px){
 .con{
     width: 100%;
