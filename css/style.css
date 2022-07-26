@@ -6,6 +6,7 @@
     background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../images/hero-bg.jpg);
     /* background-image: url(../images/hero-bg.jpg); */
     background-position:center ;
+    overflow: hidden;
 } 
 .navigation{
     width:498px;
@@ -77,7 +78,7 @@
 }
 .nav-img .phone1{
     position:relative;
-    width: 280px;
+    width: 250px;
     height: 485px;
 }
 .nav-img .phone2{
@@ -87,7 +88,7 @@
     margin-left: -246px;
 }
 }
-@media(min-width:767px){
+@media(min-width:768px){
     .con{
         width: 100%;
         height: 880px;
@@ -97,9 +98,9 @@
         background-position:center ;
     } 
     .navigation{
-        width: 90%;
+        width: 700px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         /* margin-left: 26px; */
     }
     .nav-icon ul{
@@ -124,17 +125,19 @@
         margin: auto;
         display: flex;
         flex-direction:column;
-        width:659px;
+        width: 740px;
+        padding-top: 60px;
     }
     .banner{
-        width: 659px;
+        width: 690px;
         text-align: center;
-        padding-top: 22px;
+        /* padding-top: 22px; */
         /* margin-left: 50px; */
     }
     .banner h1{
         font-family: "Poppins", sans-serif;
         color: #fff;
+        width: 700px;
         font-size: 40px;
         letter-spacing: 1px;
         font-weight: 700;
@@ -159,20 +162,18 @@
         margin: auto;
         height: 485px;
         padding-top: 20px;
-        /* margin-right: 50px; */
-        text-align: center;
-        /* margin-left: 18px; */
     }
     .nav-img .phone1{
         position:relative;
         width: 280px;
         height: 485px;
+        margin-left: -149px;
     }
     .nav-img .phone2{
         position:absolute;
         width: 250px;
         height: 485px;
-        margin-left: -246px;
+        margin-left: -316px;
     }
     }
 @media(min-width:992px){
@@ -180,16 +181,23 @@
     width: 100%;
     margin: auto;
 }
+.navigation{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+}
 .flux-container{
-    width: 100%;
     display: flex;
     flex-flow: row;
-    margin-top: 146px;
+    margin-top: 68px;
+    width: 1058px;
     box-sizing: border-box;
  }
  .banner{
-    width:630px;
+    width: 66.66%;
     margin: auto;
+    flex: 0 0 auto;
+    padding-bottom: 159px;
  }
 .navigation .nav-icon i{
     display: none;
@@ -207,74 +215,139 @@
     color: rgba(255, 255, 255, 0.65);
 }
 .banner h1{
-    text-align: center;
-    width:auto;
     padding-top: 41px;
     font-size: 2.5rem;
-    font-weight: 800;
+    text-align: center;
+    width: 565px;
+    /* padding-top: 42px; */
+    font-size: 2,5rem;
+    font-weight: 700;
 }
 .banner p{
     text-align: left;
     margin-left: 27px;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 30px;
+    margin-bottom: 44px;
 }
 .get-started{
     text-align: left;
     margin-left: 27px;
 }
 .nav-img{
-    /* text-align: right; */
-    width:363px;
+    text-align: right;
+    width: 33.33%;
     margin: auto;
 }
 .nav-img .phone1{
-    margin-right: 82px;
+    margin-right: 180px;
+    /* margin-right: 82px; */
+    position: relative;
 }
 .nav-img .phone2{
+    position: absolute;
+    margin-left: -306px;
+}
+}
 
-}
-}
-@media(min-width:994px){
-.con{
-        width: 1200px;
+@media(min-width:1200px){
+    .con{
+        width: 100%;
         margin: auto;
     }
-.flux-container{
-        width: 100%;
-        display: flex;
-        flex-flow: row;
-        margin-top: 19px;
-        margin-left: 27px;
-        box-sizing: border-box;
-     }
-.banner{
-    width: 700px;
-    margin: auto;
-    margin-top: 116px
-     }
-.banner h1{
+    .navigation{
+        width: 1100px;
+        margin: auto;
+    }
+    .navigation h3{
+        font-size: 28px;
+        /* margin-right: 155px; */
+        font-weight: 500;
+        color: #fff;
+        line-height: 3;
+        font-family: "Poppins", sans-serif;
+
+    }
+    .navigation .nav-icon i{
+        display: none;
+    }
+    .nav-icon ul{
+        display: block;
+        padding: 30px 20px 0px 0px;
+    }
+    .nav-icon ul span{
+        /* padding-left: 20px; */
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .flux-container{
+        width: 1100px;
+        margin: auto;
+    }
+    .banner{
+        /* width:; */
+        margin:auto;
+        width: 66.66%;
+        padding-top: 150px;
+    }
+    .banner h1{
+        margin-left: 46px;
+        font-size: 3.3rem;
+        margin: auto;
+        width: auto;
+        text-align: initial;
+        line-height: 60px;
+        letter-spacing: 2px;
+    }
+    .banner p{
         text-align: left;
         margin-left: 27px;
-        width: 652px;
-        padding-top: 41px;
-        font-size: 3.0rem;
-        font-weight: 800;
-        /* box-sizing: border-box; */
-        line-height: 58px;
-        word-break: break-all;
-    }
-    .nav-img {
-        width: 700px;
-        box-sizing: border-box;
+        font-size: 20px;
+        color: #fff;
+        padding-top: 30px;
+        /* margin-bottom: 44px; */
+        padding-bottom: 50px;
         margin: auto;
-        /* padding-left: 81px; */
     }
- .nav-img .phone1{
-    box-sizing: border-box;
-    position: absolute;
+    .get-started {
+        /* margin-left: -34px; */
+    margin-top: 40px;
+    margin: auto;
     }
- .nav-img .phone2{
+    .get-started a{
+        display: inline-block;
+        border: solid 2px #fff;
+        border-radius: 0px;
+        padding: 16px 33px;
+        /* padding-top: 30px; */
+        color: #fff;
+        text-decoration: none;
+        margin-left: 36px;
+    }
+    .nav-img{
+        width: 33.33%;
+        margin: auto;
+    }
+    .nav-img .phone1{
+    width: 250px;
+    margin: auto;
+    height: 485px;
     position: relative;
-    margin-top: 51px;
-    margin-left: 111px;
-    }
+    height: 485px;
+    /* margin-left: -28px; */
+    /* left: -7px; */
+    padding-right: 104px;
+    /* left: auto; */
+    margin-top: -47px;
+    right: 6px;
 }
+    }
+    .nav-img .phone2{
+        width: 250px;
+        height: 485px;
+        width: 250px;
+        height: 485px;
+        right: 60px;
+        margin: auto;
+    }
