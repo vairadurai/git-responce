@@ -246,6 +246,7 @@
     text-align: right;
     width: 33.33%;
     margin: auto;
+
 }
 .nav-img .phone1{
     /* margin-right: 180px; */
@@ -337,6 +338,8 @@
     .nav-img{
         width: 33.33%;
         margin: auto;
+        left: 54px;
+        position: relative;
     }
     .nav-img .phone1{
     width: 250px;
@@ -344,10 +347,6 @@
     height: 485px;
     position: relative;
     height: 485px;
-    /* margin-left: -28px; */
-    /* left: -7px; */
-    padding-right: 104px;
-    /* left: auto; */
     margin-top: -47px;
     right: 6px;
 }
